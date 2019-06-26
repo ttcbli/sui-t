@@ -1,0 +1,26 @@
+.card .card-body .text {
+  color: #a6a6a6 !important;
+  margin-left: 4.5rem; }
+
+.card .card-body .w-70 {
+  width: 70%;
+  margin-left: 2.5rem; }
+
+.card .card-body .w-15 {
+  width: 15%; }
+
+.card .card-body .w-60 {
+  width: 60%; }
+
+.card .card-body .h-15 {
+  height: 1.5rem; }
+
+.card .card-body .ml-25 {
+  margin-left: 2.5rem; }
+
+.card .card-body .mx-10 {
+  margin: 0 1.75rem; }
+
+.card .card-footer .btn-light {
+  border-color: #c7c7c7;
+  width: 10%; }

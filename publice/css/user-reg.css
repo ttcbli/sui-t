@@ -1,0 +1,17 @@
+.form-inline .w-10 {
+  width: 10%;
+  text-align: right !important; }
+
+.form-inline .form-control:focus {
+  box-shadow: none; }
+
+.form-inline .w-20 {
+  width: 20%;
+  margin: 0 2.5%;
+  cursor: pointer; }
+
+.form-inline .btn {
+  width: 15%; }
+
+.form-inline .btn-dark {
+  margin-left: 3%; }

@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+.clearfix:after{
+	content:"";
+	display: block;
+	clear:both;
+}
+.collapse:before{
+	content: "";
+	display: table;
+}
+.top ul{
+	float: left;
+}
+.top .right{
+	float: right;
+}
+/*.top,header,nav{
+	width: 1140px;
+	margin: 0 auto;
+}*/
+/*--top的style--*/
+.bg-top{
+	background-color:#eee;
+	border-bottom:1px solid #ccc;
+}
+
+.top ul {
+	display:flex;
+}
+.top ul a{
+	font-family: 微软雅黑;
+	font-size:12px;
+	color:#666;
+	line-height: 40px;
+}
+.top .left a[href]{
+	font-weight:bold;
+	color:#000;
+}
+.top .left li:nth-child(2) a,.top .left li:nth-child(3) a{
+	border-right:1px solid #999;
+	padding-right: 5px;
+	margin-right:5px
+}
+.top .left li:nth-child(3) a img{
+	width: 16px;
+	vertical-align: top;
+	margin-top:12px ;
+}
+.top .right a[href]{
+	border-left:1px solid #999;
+	margin-left: 5px;
+	padding-left: 5px;
+}
+/*--top的style--*/
+header .to{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.to a{
+	font-family: 微软雅黑;
+	font-size:12px;
+	color:#666;
+}
+.to .img1{
+	width:88px;
+	height:108px;
+}
+.to div input{
+	box-sizing: border-box;
+	width: 101px;
+	height: 20px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	padding:3px 5px;
+	outline: none;
+	vertical-align: middle;
+}
+.to div .img2{
+	width: 17px;
+	height: 18px;
+	vertical-align: middle;
+	padding: 0 10px;
+}
+.to div .img2 img{
+	width: 17px;
+	height: 18px;
+}
+/*--nav的style--*/
+nav ul{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 15px;
+	padding: 5px 0;
+}
+nav ul a{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #000;
+}
+
+
+
+
+
+

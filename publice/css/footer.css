@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.bg-34 {
+  background-color: #343434; }
+  .bg-34 .text-bababa {
+    color: #bababa; }
+  .bg-34 .bian {
+    border-bottom: 1px dashed #666666; }
+  .bg-34 .border34 {
+    border-left: 1px solid #555555; }
+  .bg-34 .font {
+    font-size: 0.75rem;
+    color: #ededed; }
+
+.bg-66 {
+  background-color: #666666;
+  border-top: 3px solid #818181; }
+  .bg-66 .font {
+    font-family: 微软雅黑;
+    font-size: 12px;
+    color: #cccccc; }
