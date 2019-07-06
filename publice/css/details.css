@@ -1,0 +1,143 @@
+h1,h2,h3,h4,h5,h6,a,p,span{
+    font: 微软雅黑;
+}
+.zu+div img{
+    width: 15%;
+}
+.ml-4 h5{
+    font: 16px 微软雅黑;
+    color: #000;
+    width: 28rem;
+}
+.p1{
+    font-size: 14px;
+    color: #666;
+}
+.p2,.p3{
+    font-size: 12px;
+    color: #999;
+}
+.p1+div{
+    background-image: url(../image/details/price_bg.png);
+    width:65%;
+}
+.p1+div span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #cc0000;
+}
+.p2+div button{
+    line-height: 23px;
+    border:1px solid #b8b7bd;
+    background:none;
+    margin-bottom:0.5rem;
+    font-size:12px; 
+}
+.p2+div button:hover{
+    border-color:#00ff00;
+    color:#00ff00;
+}
+.p3+div input{
+    width:58px; 
+    height:28px;
+    border:1px solid #cccccc;
+    padding: 5px;
+    outline: none;  
+    font-size: 12px;
+}
+.bo{
+    padding-left:4.5rem;
+}
+.bo button{
+    width:176px;
+    height:38px;
+    border:1px solid #ff0036;
+    color:#ff0036;
+    background-color:#ffeded;
+}
+.bo button:hover{
+    color:#fff;
+    background-color:#ff0000;
+}
+
+
+.biank{
+    border:1px solid #e5e5e5;
+}
+.biank h5{
+    background-color:#f9f9f9;
+    font: 0.8rem 微软雅黑;
+    color: #333333;
+    font-weight: bold;
+    border-bottom:1px solid #e5e5e5;
+    border-left:1px solid #e5e5e5;
+}
+.biank ul{
+    font: 0.8rem 微软雅黑;
+    color: #333333;
+    list-style: none;
+}
+.biank ul a{
+    list-style:none;
+    font: 0.7rem 微软雅黑;
+    color: #666666;
+}
+.biank ul a:hover{
+    color: #666666;
+    text-decoration: none;
+}
+.biank ul li::before{
+    content: "·";
+    margin-right:0.5rem;
+    font-weight: bold;
+}
+.biank ul li:hover{
+    background-color: #9fe6ff;
+}
+.biaot{
+    vertical-align:middle;
+}
+.biaot a img{
+    width: 1.1rem;
+    margin-top: -0.2rem;
+    margin-right: 0.5rem;
+}
+#fl{
+    background-color:#000000;
+    font: 0.8rem 微软雅黑;
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom:1px solid #000000;
+    border-left:1px solid #000000;
+    margin-bottom:1rem;
+}
+
+#canshu{
+    border:1px solid #cccccc;
+}
+#canshu .top{
+    border-bottom:1px solid #cccccc;
+}
+#canshu .top button{
+    border:none;
+    background:none;
+    padding:15px 0;
+    font:14px 微软雅黑;
+    color:#000000;
+    
+}
+#canshu .top button+button a{
+    border-left:1px solid #cccccc;
+}
+#canshu .top button a{
+    padding-left:15px;
+    padding-right:15px;
+}
+#canshu .top button:hover{
+    color:red;
+}
+
+#canshu .bottom{
+    text-align:center;
+}
+
