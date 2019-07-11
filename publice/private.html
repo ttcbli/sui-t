@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户界面</title>
+    <link rel="stylesheet" type="text/css" href="css/boot/css/bootstrap.min.css" />
+    <script type="text/javascript" src="css/boot/js/jquery.slim.min.js"></script>
+    <script type="text/javascript" src="css/boot/js/popper.min.js"></script>
+    <script type="text/javascript" src="css/boot/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/private.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row m-0">
+            <div class="col-2 p-0">
+                <div class="list">
+                    <ul>
+                        <li>我的订单</li>
+                        <li><a href="">所有订单</a></li>
+                        <li><a href="">待付款订单</a></li>
+                        <li><a href="">待发货订单</a></li>
+                        <li><a href="">待收货订单</a></li>
+                        <li><a href="">已完成订单</a></li>
+                        <li><a href="">我的退单</a></li>
+                    </ul>
+                    <ul>
+                        <li>账户管理</li>
+                        <li><a href="#collect">我的收藏</a></li>
+                        <li><a href="#evaluation">我的评价</a></li>
+                        <li><a href="#personal">个人信息</a></li>
+                        <li><a href="#address">收货地址</a></li>
+                        <li><a href="#passworg">密码管理</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-10 p-0">
+                <div id="collect" class="mt-5">
+                    <h5><span>我的收藏</span></h5>
+                    <div class="shopping">
+                        <div class="shopping-item">
+                            <ul class="row">
+                                <li class="col-2">
+                                    <div>
+                                        <img src="image/shopping_cart/1553837011350.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li class="col-3">
+                                    <div>HLA海澜之家趣味短袖T恤2019夏季新品大闹天宫时尚系列圆领短t男HNTBJ2R653A</div>
+                                </li>
+                                <li class="col-3">
+                                    <div>
+                                        <p>颜色分类:米白花纹</p>
+                                        <p>尺码:165/84A(46)</p>
+                                    </div>
+                                </li>
+                                <li class="col-4">
+                                    <a href="#">加入购物车</a>
+                                    <button href="#">立即购买</button>
+                                    <a href="#">删除</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="evaluation" class="mt-5">
+                    <h5><span>我的评价</span></h5>
+                    <p><a href="">未评价商品</a>|<a href="">已评价商品</a></p>
+                    <ul class="row m-0">
+                        <li class="col-8 p-0 text-center"><span>订单详情</span></li>
+                        <li class="col-1 p-0 text-center"><span>收货人</span></li>
+                        <li class="col-1 p-0 text-center"><span>金额</span></li>
+                        <li class="col-2 p-0 text-center"><span>操作</span></li>
+                    </ul>
+                    <div class="shopping">
+                        <div class="shopping-item">
+                            <ul class="row">
+                                <li class="col-2">
+                                    <div>
+                                        <img src="image/shopping_cart/1553837011350.jpg" alt="">
+                                    </div>
+                                </li>
+                                <li class="col-6">
+                                    <div>HLA海澜之家趣味短袖T恤2019夏季新品大闹天宫时尚系列圆领短t男HNTBJ2R653A</div>
+                                    <div>
+                                        <p>颜色分类:米白花纹</p>
+                                        <p>尺码:165/84A(46)</p>
+                                    </div>
+                                </li>
+                                <li class="col-1 text-center">曹宝利</li>
+                                <li class="col-1 text-center">￥1000.00</li>
+                                <li class="col-2 text-center">
+                                    <a href="#">加入购物车</a>
+                                    <a href="#">删除</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="personal" class="mt-5">
+                    <h5><span>个人信息</span></h5>
+                    <form action="">
+                        <div>
+                            <span class="kto">用户名：</span><span>17635798416</span>
+                        </div>
+                        <div>
+                            <span>昵称：</span><input type="text">
+                        </div>
+                        <div>
+                            <span>真实姓名：</span><input type="text">
+                        </div>
+                        <div>
+                            <span>邮箱：</span><input type="text">
+                        </div>
+                        <div class="gender">
+                            <span>性别：</span>
+                            <input type="radio" name="mf" id="man"><label for="man">男</label>
+                            <input type="radio" name="mf" id="female"><label for="female">女</label>
+                        </div>
+                        <div>
+                            <span>生日：</span><input type="Date">
+                        </div>
+                        <div class="city">
+                            <span>所在城市：</span>
+                            <select class="" name="province" id="selProvince">
+                                <option value="" selected="selected">请选择省</option>
+                                <option value="1">北京</option>
+                                <option value="2">天津</option>
+                                <option value="3">河北省</option>
+                                <option value="4">山西省</option>
+                                <option value="5">内蒙古自治区</option>
+                                <option value="6">辽宁省</option>
+                                <option value="7">吉林省</option>
+                                <option value="8">黑龙江省</option>
+                                <option value="9">上海</option>
+                                <option value="10">江苏省</option>
+                                <option value="11">浙江省</option>
+                                <option value="12">安徽省</option>
+                                <option value="13">福建省</option>
+                                <option value="14">江西省</option>
+                                <option value="15">山东省</option>
+                                <option value="16">河南省</option>
+                                <option value="17">湖北省</option>
+                                <option value="18">湖南省</option>
+                                <option value="19">广东省</option>
+                                <option value="20">广西壮族自治区</option>
+                                <option value="21">海南省</option>
+                                <option value="22">重庆</option>
+                                <option value="23">四川省</option>
+                                <option value="24">贵州省</option>
+                                <option value="25">云南省</option>
+                                <option value="26">西藏自治区</option>
+                                <option value="27">陕西省</option>
+                                <option value="28">甘肃省</option>
+                                <option value="29">青海省</option>
+                                <option value="30">宁夏回族自治区</option>
+                                <option value="31">新疆维吾尔自治区</option>
+                                <option value="32">香港特别行政区</option>
+                                <option value="33">澳门特别行政区</option>
+                                <option value="34">台湾省</option>
+                            </select>
+                            <select class="" name="city" id="selCity">
+                                <option value="" selected="selected">请选择区</option>
+                            </select>
+                            <select class="" name="district" id="seldistrict">
+                                <option value="" selected="selected">请选择区</option>
+                            </select>
+                        </div>
+                        <div class="operation">
+                            <span></span><button>保存</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div id="address" class="mt-5">
+                    <h5><span>收货地址</span></h5>
+                    <form action="">
+                        <div>
+                            <span class="kto">新增收货地址：</span><span>所有项目均为必填项</span>
+                        </div>
+                        <div>
+                            <span>当前配送至：</span><span>中国大陆</span>
+                        </div>
+                        <div class="city">
+                            <span>地区：</span>
+                            <select class="" name="province" id="selProvince">
+                                <option value="" selected="selected">请选择省</option>
+                                <option value="1">北京</option>
+                                <option value="2">天津</option>
+                                <option value="3">河北省</option>
+                                <option value="4">山西省</option>
+                                <option value="5">内蒙古自治区</option>
+                                <option value="6">辽宁省</option>
+                                <option value="7">吉林省</option>
+                                <option value="8">黑龙江省</option>
+                                <option value="9">上海</option>
+                                <option value="10">江苏省</option>
+                                <option value="11">浙江省</option>
+                                <option value="12">安徽省</option>
+                                <option value="13">福建省</option>
+                                <option value="14">江西省</option>
+                                <option value="15">山东省</option>
+                                <option value="16">河南省</option>
+                                <option value="17">湖北省</option>
+                                <option value="18">湖南省</option>
+                                <option value="19">广东省</option>
+                                <option value="20">广西壮族自治区</option>
+                                <option value="21">海南省</option>
+                                <option value="22">重庆</option>
+                                <option value="23">四川省</option>
+                                <option value="24">贵州省</option>
+                                <option value="25">云南省</option>
+                                <option value="26">西藏自治区</option>
+                                <option value="27">陕西省</option>
+                                <option value="28">甘肃省</option>
+                                <option value="29">青海省</option>
+                                <option value="30">宁夏回族自治区</option>
+                                <option value="31">新疆维吾尔自治区</option>
+                                <option value="32">香港特别行政区</option>
+                                <option value="33">澳门特别行政区</option>
+                                <option value="34">台湾省</option>
+                            </select>
+                            <select class="" name="city" id="selCity">
+                                <option value="" selected="selected">请选择区</option>
+                            </select>
+                            <select class="" name="district" id="seldistrict">
+                                <option value="" selected="selected">请选择区</option>
+                            </select>
+                        </div>
+                        <div>
+                            <span>真实姓名：</span><input type="text">
+                        </div>
+                        <div>
+                            <span>收货人姓名：</span><input type="text">
+                        </div>
+                        <div>
+                            <span>手机号码：</span><input type="text">
+                        </div>
+                        <div class="gender">
+                            <span></span>
+                            <input type="checkbox" name="mf" id="man"><label for="man">设置为默认收货地址</label>
+                        </div>
+                        <div class="operation">
+                            <span></span><button>保存</button>
+                        </div>
+                    </form>
+
+                    <h5 class="mt-5"><span>当前收货地址</span></h5>
+                    <div class="own row m-0">
+                        <div class="col-2 px-0 py-2"><span>收货人</span></div>
+                        <div class="col-2 px-0 py-2"><span>所在地区</span></div>
+                        <div class="col-2 px-0 py-2"><span>详细地址</span></div>
+                        <div class="col-2 px-0 py-2"><span>手机</span></div>
+                        <div class="col-2 px-0 py-2"><span>操作</span></div>
+                        <div class="col-2 px-0 py-2"><span>默认地址</span></div>
+                    </div>
+                    <div class="allsite mt-3">
+                        <div class="allsite-item row mx-0">
+                            <div class="col-2 px-0 py-2"><span>曹宝利</span></div>
+                            <div class="col-2 px-0 py-2"><span>北京-北京市-海淀区</span></div>
+                            <div class="col-2 px-0 py-2"><span>特定特定特定</span></div>
+                            <div class="col-2 px-0 py-2"><span>15935498245</span></div>
+                            <div class="col-2 px-0 py-2"><span><a href="#">修改</a> | <a href="#">删除</a></span></div>
+                            <div class="col-2 px-0 py-2"><span>是</span></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="passworg" class="mt-5">
+                    <h5><span>密码管理</span></h5>
+                    <form action="">
+                        <div>
+                            <span class="kto"></span><span>账户名 176*******6</span>
+                        </div>
+                        <div>
+                            <span>原密码：</span><input type="text">
+                        </div>
+                        <div>
+                            <span>新密码：</span><input type="text"><span>必须是6-16位英文字母、数字或符号</span>
+                        </div>
+                        <div>
+                            <span>确认密码：</span><input type="text">
+                        </div>
+                        <div class="operation">
+                            <span></span><button>保存</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

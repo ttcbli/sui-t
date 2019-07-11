@@ -1,0 +1,317 @@
+a,li,h5,span,p,input,button,option{
+    font: 14px 微软雅黑;
+}
+.list ul{
+    list-style: none;
+    padding-left:20px;
+    margin-bottom:38px;
+}
+.list ul li a{
+    color:#6f6f6f;
+}
+.list ul li:first-child{
+    font-weight:bold;
+}
+.list ul li+li{
+    margin-top:1rem;
+}
+
+#personal h5{
+    border-bottom:1PX solid #ececec;
+}
+#personal h5 span{
+    font-size: 16px;
+    font-weight:bold;
+    display:inline-block;
+    padding:0 1rem;
+    padding-bottom:5px;     
+    border-bottom:2PX solid #000000;    
+}
+#personal form{
+    margin-top:50px;
+}
+#personal form div span:first-child{
+    display: inline-block;
+    width:7rem;
+    text-align: right;
+    margin-right:3rem;
+}
+#personal form div+div{
+    margin-top:20px;
+}
+#personal form div input{
+    width:288px;
+    height:29px;
+    border:1px solid #a9a9a9;
+    padding: 5px;
+}
+#personal .gender input{
+    width:1.2rem;
+    height:1.2rem;
+    vertical-align: middle;
+}
+#personal .operation button{
+    width:63px;
+    height:29px;
+    border:none;
+    border-radius: 5px;
+    background-color:#dc2829;
+    font-weight: bold;
+    color:#ffffff;
+}
+#personal .city select{
+    width:6.2rem;
+    height:29px;
+}
+
+#address h5{
+    border-bottom:1PX solid #ececec;
+}
+#address h5 span{
+    font-size: 16px;
+    font-weight:bold;
+    display:inline-block;
+    padding:0 1rem;
+    padding-bottom:5px;     
+    border-bottom:2PX solid #000000;    
+}
+#address form{
+    margin-top:50px;
+}
+#address form div span:first-child{
+    display: inline-block;
+    width:7rem;
+    text-align: right;
+    margin-right:3rem;
+}
+#address form div+div{
+    margin-top:20px;
+}
+#address form div input{
+    width:288px;
+    height:29px;
+    border:1px solid #a9a9a9;
+    padding: 5px;
+}
+#address .gender input{
+    width:1.2rem;
+    height:1.2rem;
+    vertical-align: middle;
+    color: #000;
+    margin-right: 0.5rem;    
+}
+#address .operation button{
+    width:63px;
+    height:29px;
+    border:none;
+    border-radius: 5px;
+    background-color:#dc2829;
+    font-weight: bold;
+    color:#ffffff;
+}
+#address .city select{
+    width:6.2rem;
+    height:29px;
+}
+#address .own div{
+    background-color: #ebecf0;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-left: 0;
+}
+#address .own div:first-child{
+    border-left: 1px solid #ccc;
+}
+#address .allsite-item{
+    margin-bottom:0.3rem;
+}
+#address .allsite-item div{
+    text-align: center;
+    border: 1px solid #ccc;
+    border-left: 0;
+}
+#address .allsite-item div span,#address .allsite-item div a{
+    color:#787878;
+}
+#address .allsite-item div:first-child{
+    border-left: 1px solid #ccc;
+}
+
+#passworg h5{
+    border-bottom:1PX solid #ececec;
+}
+#passworg h5 span{
+    font-size: 16px;
+    font-weight:bold;
+    display:inline-block;
+    padding:0 1rem;
+    padding-bottom:5px;     
+    border-bottom:2PX solid #000000;    
+}
+#passworg form{
+    margin-top:50px;
+}
+#passworg form div span:first-child{
+    display: inline-block;
+    width:7rem;
+    text-align: right;
+    margin-right:3rem;
+}
+#passworg form div span:not(:first-child){
+    text-align: right;
+    margin-left:1rem;
+    color:#787878;
+}
+#passworg form div+div{
+    margin-top:20px;
+}
+#passworg form div input{
+    width:288px;
+    height:29px;
+    border:1px solid #a9a9a9;
+    padding: 5px;
+}
+#passworg .operation button{
+    width:63px;
+    height:29px;
+    border:none;
+    border-radius: 5px;
+    background-color:#dc2829;
+    font-weight: bold;
+    color:#ffffff;
+}
+
+#collect h5{
+    border-bottom:1PX solid #ececec;
+}
+#collect h5 span{
+    font-size: 16px;
+    font-weight:bold;
+    display:inline-block;
+    padding:0 1rem;
+    padding-bottom:5px;     
+    border-bottom:2PX solid #000000;    
+}
+#collect .shopping-item{
+    border:1px solid #e6e6e6;
+    background-color:#fcfcfc;
+    margin-top:1rem;
+}
+#collect .shopping-item>ul{
+    list-style:none;
+    margin:1rem;
+    margin-right:0;
+    padding-left: 0px;
+    font:14px 微软雅黑;
+    color:#000;
+}
+#collect .shopping-item>ul .col-2 div{
+    width:82px;
+    height:82px;
+    border:1px solid #e6e6e6;
+    display: inline-block;
+    vertical-align: top;
+}
+#collect .shopping-item>ul .col-2 div img{
+    width:100%;
+}
+#collect .shopping-item>ul .col-3 div{
+    font:12px 微软雅黑;
+}
+#collect .shopping-item>ul .col-4{
+    text-align: center;
+    padding-top:2%;
+}
+#collect .shopping-item>ul .col-4 a{
+    color:#787878;
+}
+#collect .shopping-item>ul .col-4 button{
+    width:73px;
+    height:30px;
+    border:none;
+    border-radius: 5px;
+    background-color:#dc2829;
+    font-weight: bold;
+    color:#ffffff;
+    margin: 0 0.5rem;
+}
+
+#evaluation h5{
+    border-bottom:1PX solid #ececec;
+}
+#evaluation h5 span{
+    font-size: 16px;
+    font-weight:bold;
+    display:inline-block;
+    padding:0 1rem;
+    padding-bottom:5px;     
+    border-bottom:2PX solid #000000;    
+}
+#evaluation h5+p{
+    background-color: #f5f5f5;
+    padding:1rem 0;
+    padding-left:1rem;
+}
+#evaluation h5+p a:first-child{
+    margin-right:0.5rem;
+    color:#787878;
+}
+#evaluation h5+p a:last-child{
+    margin-left:0.5rem;
+    color:#787878;
+}
+#evaluation h5~ul{
+    list-style: none;
+    background-color: #f5f5f5;
+    padding:1rem 0;
+    padding-left:1rem;
+}
+
+
+#evaluation .shopping-item{
+    border:1px solid #e6e6e6;
+    background-color:#fcfcfc;
+    margin-top:1rem;
+}
+#evaluation .shopping-item>ul{
+    list-style:none;
+    margin:1rem;
+    margin-right:0;
+    padding-left: 0px;
+    font:14px 微软雅黑;
+    color:#000;
+}
+#evaluation .shopping-item>ul .col-2 div{
+    width:82px;
+    height:82px;
+    border:1px solid #e6e6e6;
+    display: inline-block;
+    vertical-align: top;
+}
+#evaluation .shopping-item>ul .col-2 div img{
+    width:100%;
+}
+#evaluation .shopping-item>ul .col-1 input{
+    width:38px;
+    height:23px;
+    border:1px solid #aaaaaa;
+    font:12px 微软雅黑;
+    color:#000;
+    padding: 5px;
+}
+#evaluation .shopping-item>ul .col-1 a{
+    color:#000000;
+}
+#evaluation .shopping-item>ul .col-6 div{
+    font:12px 微软雅黑;
+    color:#000;
+    display: inline-block;
+    width:41%;
+    vertical-align: top;
+}
+#evaluation .shopping-item>ul .col-6 div+div p {
+    margin-bottom: 0;
+}
+#evaluation .shopping-item>ul .col-2 a{
+    color:#787878;
+}
